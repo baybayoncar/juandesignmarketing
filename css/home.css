@@ -11,6 +11,7 @@ body {
     background-image: url('../images/juandesign-officialwebdesign-cover.png');
     background-size: cover;
     background-position: top;
+    background-repeat: no-repeat;
 }
 
 li {
@@ -137,3 +138,36 @@ h1, p {
     border-color: orange;
 }
 
+.services-bar {
+    width: 70%;
+    height: fit-content;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-top: 150px;
+    display: flex;
+    align-items: top;
+    padding: 20px 50px;
+    background-color: #002A34;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7.5px rgba(1, 10, 15, 0.7);
+}
+
+.services-bar p {
+    width: 150px;
+    margin: 10px 0;
+    margin-left: 20px;
+    margin-right: 270px;
+}
+
+.services-bar .services-tile {
+    border-left: 1px solid #F5F5F5;
+}
+
+.services-bar .services-number {
+    color: orange;
+}
+
+.services-bar .services-name {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
