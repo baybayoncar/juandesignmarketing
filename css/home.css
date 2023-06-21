@@ -23,19 +23,6 @@ a {
     font-size: 1rem;
 }
 
-h1, p {
-    margin: 0;
-}
-
-.row {
-    display: flex;
-}
-
-.container {
-    max-width: 85%;
-    margin: 0 auto;
-}
-
 /* HEADER */
 header {
     position: relative;
@@ -81,11 +68,32 @@ header {
     gap: 2rem;
     flex-wrap: wrap-reverse;
     align-items: center;
-    min-height: calc(100vh - 93.6px);
+    min-height: calc(90vh - 93.6px);
 }
 
 .hero>* {
     flex: 1 1 25em;
+}
+
+.row {
+    display: flex;
+}
+
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: fit-content;
+    align-items: center;
+}
+
+h1, p {
+    margin: 0;
 }
 
 .hero h1 {
@@ -101,14 +109,16 @@ header {
     font-size: 30px;
     padding: 1em 0;
     color: #EAA52D;
-    margin: -25px 0 0 175px;
+    margin-top: -25px;
 }
 
 .hero a {
     font-weight: 500;
     font-size: 20px;
-    padding: 0.3em 1em;
+    padding: 0.3em 1.75em;
+    margin-top: 35px;
     background: #000000;
+    width: fit-content;
     border: solid;
     border-width: 1.5px;
     border-color: #FFFFFF;
@@ -118,3 +128,6 @@ header {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
+
+
